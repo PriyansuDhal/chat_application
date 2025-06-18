@@ -32,10 +32,14 @@ const Modal = () => {
     }
   };
 
+  // ✅ Added console log for verification
+  console.log("Modal component updated for second PR");
+
   return (
     <div className="wrapper">
       <div className="form">
-        <h1 className="title">Chat Application</h1>
+        {/* ✅ Updated title */}
+        <h1 className="title">Chat App v2</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"

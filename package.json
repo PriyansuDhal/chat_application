@@ -7,11 +7,14 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
     "axios": "^0.21.1",
-    "react": "^17.0.1",
+    "postcss": "^8.4.31",
+    "react": "^18.3.1",
     "react-chat-engine": "^1.5.7",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -40,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.17.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
